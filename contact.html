@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- START:Header -->
+    <div class="header">
+      <!-- START: Logo -->
+      <div id="logo">
+        <a href="index.html"><img src="image/logo.jpeg" /></a>
+      </div>
+      <h1 id="title"><strong>A&Z GOURMENT PIZZA</strong></h1>
+      <div id="bookNow"><button>Book Now</button></div>
+    </div>
+    <!-- END:Header -->
+    <!-- START: Navigation -->
+    <nav class="navigation">
+      <ul>
+        <li>
+          <a href="index.html" class="Home page">Home Page</a>
+        </li>
+        <li>
+          <a href="drink.html" class="drink">Drink lists</a>
+        </li>
+        <li>
+          <a href="location.html" class="location">Our Location</a>
+        </li>
+        <li>
+          <a href="menu.html" class="menu">Our menu</a>
+        </li>
+        <li>
+          <a href="contact.html" class="contact">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- END: Navigation -->
+    <!-- START:ContactMe -->
+    <div class="container">
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <!-- END:ContactMe -->
+    <!-- START:Footer -->
+    <footer>
+      <div id="content">Copyright 2023 | peiying Chien</div>
+      <ul id="icons">
+        <li><img src="image/instagram icon.png" /></li>
+        <li><img src="image/facebook icon.png" /></li>
+        <li><img src="image/twitter.png" /></li>
+      </ul>
+    </footer>
+    <!-- END: Footer -->
+  </body>
+</html>

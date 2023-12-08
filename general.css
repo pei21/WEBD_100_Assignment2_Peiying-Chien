@@ -1,0 +1,129 @@
+/* START: Global styles */
+body {
+  /* google font */
+  
+  font-family: "Abril Fatface", serif;
+  background-color: #a6916a;
+  margin-bottom: 30px;
+
+ 
+}
+h1 {
+  color: #f2c777;
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.6;
+ 
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  color: white;
+  background-color: #052e45;
+  padding: 15px 20px;
+  border: 2px solid #a6916a;
+  border-radius: 20px;
+  font-size: large;
+}
+/* END: Global styles */
+
+/* START: Header styles */
+.header {
+  /* here is an example of overwriting because the background color is overwritten */
+  background-color: #152618;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo {
+  height: 100px;
+  width: 200px;
+  /* fits all the kids inside the container */
+  overflow: hidden;
+  text-align: center;
+  align-self: center;
+  display: flex;
+
+}
+
+#logo img {
+  width: 70%;
+  height: 75%;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: double;
+  border-color: #a6916a;
+ 
+ 
+ 
+}
+#bookNow {
+  display: flex;
+}
+button {
+  /* **for flex** */
+  text-align: center;
+  align-self: center;
+}
+/* END: Header styles */
+
+/* START: Navigationbar */
+
+.navigation ul {
+  margin: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navigation li {
+  display: inline-block;
+  border-right: 2px solid white;
+  font-size: 20px;
+}
+
+.navigation ul li a {
+  margin: 10px;
+  display: block;
+  text-align: center;
+  color: #152618;
+  text-decoration: none;
+}
+.navigation li :hover {
+  color: #8a262e;
+}
+/* --START: Footer */
+footer {
+  /* position */
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* look */
+  background-color: #050B36;
+  color: #f3f4f5;
+}
+#content {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+#icons {
+  display: flex;
+}
+
+#icons img {
+  margin: 15px;
+  width: 30px;
+}
+
+/* END: Footer */

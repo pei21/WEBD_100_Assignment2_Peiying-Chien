@@ -1,0 +1,39 @@
+/* START: Drink */
+#drinks {
+  color: #2D4262;
+  text-align: center;
+}
+.imgContainer img {
+  border-radius: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+#listsContainer {
+  margin: 0 20% 0 20%;
+}
+.beverage {
+  background-color: #D1CAB3;
+  padding: 5%;
+  border: #152618;
+  border-width: 4px;
+  border-style: double;
+}
+#drinks h1{
+  color: #41251C;
+  font-size: 35px;
+}
+.beverage h2 {
+  color: #41251C;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+.beverage p {
+  color: #41251C ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+/* END: Drink */
